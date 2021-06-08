@@ -136,3 +136,14 @@ li a {
     position: relative;
     display: inline-block;
 }
+footer{
+    padding-top: 20px ;
+    padding-left: 5px;
+    margin-top:15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100px;
+    width: auto;
+    background-color: rgba(88, 88, 88, 0.95);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
