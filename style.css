@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Monaco', Times, serif;
+}
+html,body{
+    height:100%;
+
+    background-color: silver;
+    background-image: url(Business.jpg);
+}
+.top{
+    height:80px;  
+    width: auto;  
+    background-color: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px
+}
+.box{
+    margin-top: 0;
+    margin-left: 200px;
+    height: 100%;
+    width: auto;
+    display: inline-block;
+    padding: 20px;
+}
+.top img{
+    height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 50px;    
+    position: relative;
+    top: -5px;
+    left: 40px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:grey;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 10px;;
+}
+.corpo{
+    margin-top:15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 300px;
+    width: auto;
+    background-color: rgba(145, 145, 145, 0.95);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+.corpo .box1{
+    width: 300px;
+    height: 100%;   
+    display: inline-block;
+    position: relative;
+    top: 0px;
+}
+.corpo .box2{
+    width: 900px;
+    height: 100%;
+    display: inline-block;
+}
+
+.corpo .box1 .box1-1{
+    width: 300px;
+    height: 70%;
+
+}
+.corpo .box1 .box1-1 img{
+    padding: 50px ;
+    width: 100%;
+    height: auto; 
+    position: relative;
+    top: -35px;
+}
+.corpo .box1 .box1-2{
+    width: 300px;
+    height: 30%;
+
+}
+.corpo .box1 .box1-2 p{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    text-shadow: 0.3px 0.3px indigo;
+}
+
+.corpo .box2 p{
+    position: relative;
+    top: -0px;
+    left: 20px;
+    text-shadow: 0.3px 0.3px indigo;
+}
+
+.badges{
+    margin-top: 15px;
+    margin-left: 25%;
+    margin-right: 10px;
+}
+.badges .badge {
+    margin-left: 10px;
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.badges .bad {
+    display: inline-block;
+    margin-left: 5px;
+}
+.badges .bad p{
+    margin-left: 15px;
+    width: 100px;
+    color:white;
+    text-align:center;
+}
+.text{
+    margin: 5px 3% ;
+}
+.badge {
+    margin-left: 3%;
+    position: relative;
+    display: inline-block;
+}
