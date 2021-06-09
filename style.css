@@ -147,3 +147,16 @@ footer{
     background-color: rgba(88, 88, 88, 0.95);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
 }
+#myProgress {
+    width: 100%;
+    background-color: grey;
+  }
+  
+  #myBar {
+    width: 68%;
+    height: 10px;
+    background-color: green;
+  }
+  a:visited{
+      color:black;
+  }
