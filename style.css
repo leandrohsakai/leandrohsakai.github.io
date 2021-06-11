@@ -7,13 +7,14 @@
 html,body{
     height:100%;
 
-    background-color: silver;
-    background-image: url(Business.jpg);
+    background-color: lightgray;
+    /*background-image: url(Business.jpg);*/
 }
 .top{
     height:80px;  
     width: auto;  
-    background-color: gray;
+    min-width: 1100px;
+    background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     margin-left: 10px;
     margin-right: 10px;
@@ -21,14 +22,15 @@ html,body{
 }
 .box{
     margin-top: 0;
-    margin-left: 200px;
+    margin-right: 20%;
     height: 100%;
     width: auto;
     display: inline-block;
     padding: 20px;
+    
 }
 .box2{
-    margin-top: 45px;
+    margin-top: 2%;
     
 }
 .top img{
@@ -44,14 +46,14 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:grey;
+  background-color:white;
 }
 li {
   float: left;
 }
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -63,18 +65,18 @@ li a {
     margin-right: 10px;
     height: 300px;
     width: auto;
-    background-color: rgba(145, 145, 145, 0.95);
+    background-color: rgba(255, 255, 255, 0.959);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    min-width: 1100px;
 }
 .corpo .box1{
-    width: 300px;
+    width: 30%;
     height: 100%;   
     display: inline-block;
-    position: relative;
-    top: 0px;
+    
 }
 .corpo .box2{
-    width: 900px;
+    width: 50%;
     height: 100%;
     display: inline-block;
 }
@@ -89,7 +91,7 @@ li a {
     margin-top: 15%;
     width: 46%;
     border-style: solid;
-    border-color: lightgray;
+    border-color: white;
     height: auto; 
     position: relative;
     top: -35px;
@@ -132,7 +134,7 @@ li a {
 .badges .bad p{
     margin-left: 15px;
     width: 100px;
-    color:white;
+    color:black;
     text-align:center;
 }
 .text{
@@ -156,7 +158,7 @@ footer{
 }
 #myProgress {
     width: 100%;
-    background-color: grey;
+    background-color: white;
   }
   
   #myBar {
